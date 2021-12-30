@@ -4,7 +4,7 @@
 #
 Name     : R-basefun
 Version  : 1.1.1
-Release  : 3
+Release  : 4
 URL      : https://cran.r-project.org/src/contrib/basefun_1.1-1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/basefun_1.1-1.tar.gz
 Summary  : Infrastructure for Computing with Basis Functions
@@ -39,10 +39,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1636732765
+export SOURCE_DATE_EPOCH=1640890987
 
 %install
-export SOURCE_DATE_EPOCH=1636732765
+export SOURCE_DATE_EPOCH=1640890987
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -113,3 +113,5 @@ R CMD check --no-manual --no-examples --no-codoc basefun || :
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/R/library/basefun/libs/basefun.so
+/usr/lib64/R/library/basefun/libs/basefun.so.avx2
+/usr/lib64/R/library/basefun/libs/basefun.so.avx512
