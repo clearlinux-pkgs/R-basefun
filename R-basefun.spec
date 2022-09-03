@@ -4,7 +4,7 @@
 #
 Name     : R-basefun
 Version  : 1.1.3
-Release  : 9
+Release  : 10
 URL      : https://cran.r-project.org/src/contrib/basefun_1.1-3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/basefun_1.1-3.tar.gz
 Summary  : Infrastructure for Computing with Basis Functions
