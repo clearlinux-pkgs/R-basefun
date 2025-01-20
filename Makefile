@@ -1,5 +1,5 @@
 PKG_NAME := R-basefun
-URL = https://cran.r-project.org/src/contrib/basefun_1.1-4.tar.gz
+URL = https://ftp.osuosl.org/pub/cran/src/contrib/basefun_1.2-1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
